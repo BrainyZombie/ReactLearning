@@ -4,6 +4,7 @@ import Parent from "./01_props/Parent";
 import GuestList from "./02_state/GuestList";
 import UserSearch from "./02_state/UserSearch";
 import EventComponent from "./03_events/EventComponent";
+import UserSearchClass from "./04_classes/UserSearchClass";
 const App = () => {
   return (
     <div>
@@ -14,6 +15,14 @@ const App = () => {
       <UserSearch />
       <Spacer />
       <EventComponent />
+      <Spacer />
+      <UserSearchClass
+        users={[
+          { name: "sara", age: 22 },
+          { name: "john", age: 30 },
+          { name: "jane", age: 27 },
+        ]}
+      />
     </div>
   );
 };
