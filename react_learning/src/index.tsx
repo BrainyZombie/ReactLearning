@@ -5,6 +5,7 @@ import GuestList from "./02_state/GuestList";
 import UserSearch from "./02_state/UserSearch";
 import EventComponent from "./03_events/EventComponent";
 import UserSearchClass from "./04_classes/UserSearchClass";
+import UserSearchRef from "./06_refs/UserSearchRef";
 const App = () => {
   return (
     <div>
@@ -23,6 +24,8 @@ const App = () => {
           { name: "jane", age: 27 },
         ]}
       />
+      <Spacer />
+      <UserSearchRef />
     </div>
   );
 };
