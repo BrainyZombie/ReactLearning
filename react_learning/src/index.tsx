@@ -3,6 +3,7 @@ import Spacer from "./Spacer";
 import Parent from "./01_props/Parent";
 import GuestList from "./02_state/GuestList";
 import UserSearch from "./02_state/UserSearch";
+import EventComponent from "./03_events/EventComponent";
 const App = () => {
   return (
     <div>
@@ -11,6 +12,8 @@ const App = () => {
       <GuestList />
       <Spacer />
       <UserSearch />
+      <Spacer />
+      <EventComponent />
     </div>
   );
 };
